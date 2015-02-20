@@ -1,0 +1,58 @@
+[
+	{
+		"titre": "Jeu 2048",
+		"description": "Réalisation du jeu 2048 en utilisant seulement jquery",
+		"github": "https://github.com/villers/CSS_Javascript_2048",
+		"preview": "projects/CSS_Javascript_2048/index.html",
+		"img": "projects/CSS_Javascript_2048/2048.png",
+		"tags": "Html5, Css3, Compass, Jquery, CoffeeScript"
+	},
+	{
+		"titre": "Maquette MOON",
+		"description": "Réalisation d'une maquette utilisant des annimations css3",
+		"github": "https://github.com/villers/CSS_Javascript_Maquette",
+		"preview": "projects/CSS_Javascript_Maquette/index.html",
+		"img": "projects/CSS_Javascript_Maquette/MOON/gabarit/ecran-complet.jpg",
+		"tags": "Html5, Css3, Compass"
+	},
+	{
+		"titre": "Maquette Responsive",
+		"description": "Réalisation d'une maquette responsive",
+		"github": "https://github.com/villers/CSS_Javascript_Maquette_Responsive",
+		"preview": "projects/CSS_Javascript_Maquette_Responsive/index.html",
+		"img": "projects/CSS_Javascript_Maquette_Responsive/img/screenshot_1.png",
+		"tags": "Html5, Css3, Compass, Javascript"
+	},
+	{
+		"titre": "CSS Javascript JQuery",
+		"description": "Réalisation d'une calquellete, d'un drag and drop, d'un slider et d'un rubix cube en Jqeury",
+		"github": "https://github.com/villers/CSS_Javascript_JQuery",
+		"preview": "projects/CSS_Javascript_JQuery/",
+		"img": "projects/CSS_Javascript_JQuery/screenshot.png",
+		"tags": "Html5, Css3, Compass, Jquery"
+	},
+	{
+		"titre": "Google map",
+		"description": "Utilisation de l'API google map",
+		"github": "https://github.com/villers/JavaScript_Avance_my_maps/tree/master/semaine-1",
+		"preview": "projects/JavaScript_Avance_my_maps/semaine-1",
+		"img": "projects/JavaScript_Avance_my_maps/semaine-1/screenshot.png",
+		"tags": "Html5, Css3, Compass, CoffeeScript, Jquery, Bootstrap, Grunt, Npm, Bower"
+	},
+	{
+		"titre": "Google map Chat",
+		"description": "Réalisation d'un chat utilisant nodejs et les webSocket",
+		"github": "https://github.com/villers/JavaScript_Avance_my_maps/tree/master/semaine-2",
+		"preview": "http://localhost:3000",
+		"img": "projects/JavaScript_Avance_my_maps/semaine-2/screenshot.png",
+		"tags": "Html5, Css3, Stylus, CoffeeScript, Jquery, Bootstrap, Gulp, Npm, Bower, Handlebars, AnimateCSS"
+	},
+	{
+		"titre": "Paint JS",
+		"description": "Réalisation d'un paint en javascript",
+		"github": "https://github.com/villers/JavaScript_Avance_my_paint",
+		"preview": "projects/JavaScript_Avance_my_paint",
+		"img": "projects/JavaScript_Avance_my_paint/screenshot.png",
+		"tags": "Html5, Css3, Stylus, CoffeeScript, Jquery, Gulp, Npm"
+	}
+]

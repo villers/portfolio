@@ -1,0 +1,91 @@
+<div class="color">
+    <div id="banner" class="reduced">
+        <div class="logo">
+            <a href="#/">
+                <img src="template/images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="title">
+            <h3>Mickaël Villers</h3>
+            <h4> Développeur Web et Applicatif </h4>
+            <p>
+                <em>« Un métier, une passion »</em>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container content row">
+    <div class="col s12 m12 l12 grey lighten-2 white-text  z-depth-1">
+        <div class="row">
+            <div class="col s12 m12 l12 cyan darken-2 bordered-cyan-darken-4 b-w-4 b-bottom">
+                <h4 class="page-title">Mes compétences</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l12 grey darken-2 bordered-grey-darken-3 b-w-4 b-bottom">
+                <h5 class="page-sub-title">Langages</h5>
+            </div>
+            <div class="col s6 m4 l3" data-ng-repeat="row in talents.languages">
+                <div class="devbox indigo lighten-1 white-text">
+                    <div class="dev-content white-text">
+                        <span class="dev-title">
+                            <i class="devicons devicons-{{row.titre}}" title="{{row.titre}}" data-ng-if="row.type == 'ico'"></i>
+                            <i data-ng-if="row.type != 'ico'">{{row.titre}}</i>
+                        </span>
+                        <div class="row indigo darken-2">
+                            <div class="dev-like">
+                                <div class="back indigo-text darken-4 ">
+                                    <span class="indigo-text lighten-2">{{row.level}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l12 grey darken-2 bordered-grey-darken-3 b-w-4 b-bottom">
+                <h5 class="page-sub-title">Frameworks</h5>
+            </div>
+            <div class="col s6 m4 l3" data-ng-repeat="row in talents.framework">
+                <div class="devbox indigo lighten-1 white-text">
+                    <div class="dev-content white-text">
+                        <span class="dev-title">
+                            <i class="devicons devicons-{{row.titre}}" title="{{row.titre}}" data-ng-if="row.type == 'ico'"></i>
+                            <i data-ng-if="row.type != 'ico'">{{row.titre}}</i>
+                        </span>
+                        <div class="row indigo darken-2">
+                            <div class="dev-like">
+                                <div class="back indigo-text darken-4 ">
+                                    <span class="indigo-text lighten-2">{{row.level}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l12 grey darken-2 bordered-grey-darken-3 b-w-4 b-bottom">
+                <h5 class="page-sub-title">Technologie</h5>
+            </div>
+            <div class="col s6 m4 l3" data-ng-repeat="row in talents.techno">
+                <div class="devbox indigo lighten-1 white-text">
+                    <div class="dev-content white-text">
+                        <span class="dev-title">
+                            <i class="devicons devicons-{{row.titre}}" title="{{row.titre}}" data-ng-if="row.type == 'ico'"></i>
+                            <i data-ng-if="row.type != 'ico'">{{row.titre}}</i>
+                        </span>
+                        <div class="row indigo darken-2">
+                            <div class="dev-like">
+                                <div class="back indigo-text darken-4 ">
+                                    <span class="indigo-text lighten-2">{{row.level}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

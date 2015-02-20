@@ -1,0 +1,50 @@
+//Borders  Color Classes
+
+
+@each $color_name, $color in $colors {
+  @each $color_type, $color_value in $color {
+      @if $color_type == "base" {
+        .bordered-#{$color_name}{
+          border-color: $color_value !important;
+          border-width: 1px;
+          border-color: white;
+          border-style: solid;
+        }
+      }
+      @else {
+        .bordered-#{$color_name}-#{$color_type} {
+          border-color: $color_value !important;
+          border-width: 1px;
+          border-color: white;
+          border-style: solid;
+        }       
+      }
+    
+  }
+}
+@for $i from 1 through 10{
+  .b-w-#{$i}{ 
+    border-width: $i+px;
+  }
+}
+
+.b-left{
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.b-right{
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+.b-top{
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+.b-bottom{
+  border-right: 0px;
+  border-top: 0px;
+  border-left: 0px;
+}

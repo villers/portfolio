@@ -1,0 +1,25 @@
+{
+  "name": "PHP_Avance_Portfolio",
+  "version": "0.0.0",
+  "authors": [
+    "viller_m <viller_m@epitech.eu>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "devicon": "konpa/devicon",
+    "animate.css": "~3.2.0",
+    "eventie": ">=1.0.4 <2",
+    "eventEmitter": "4.x",
+    "materialize": "*",
+    "devicons": "~1.6.0",
+    "font-awesome": "FortAwesome/Font-Awesome#~4.3.0"
+  }
+}

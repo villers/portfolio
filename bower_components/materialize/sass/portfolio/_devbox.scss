@@ -1,0 +1,22 @@
+.devbox{
+	@extend .card;
+	padding-bottom: 0px;
+	.dev-content{
+		padding: 10px;
+		padding-bottom: 2px;
+		text-align: center;
+		span.dev-title{
+			font-size: 65px;
+			line-height: 80px;
+		}
+		.row{
+			margin-bottom: 0px;
+			text-align: center;
+			.dev-like{
+				height: 20px;
+				font-size: 15px;
+				padding: 10px;
+			}
+		}
+	}
+}

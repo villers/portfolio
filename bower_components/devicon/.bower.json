@@ -1,0 +1,13 @@
+{
+  "name": "devicon",
+  "homepage": "https://github.com/konpa/devicon",
+  "_release": "4da238263d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "4da238263dda59f99046d91513c7271e15425057"
+  },
+  "_source": "git://github.com/konpa/devicon.git",
+  "_target": "*",
+  "_originalSource": "konpa/devicon"
+}

@@ -1,0 +1,59 @@
+<div class="color">
+    <div id="banner" class="reduced">
+        <div class="logo">
+            <a href="#/">
+                <img src="template/images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="title">
+            <h3>Mickaël Villers</h3>
+            <h4> Développeur Web et Applicatif </h4>
+            <p>
+                <em>« Un métier, une passion »</em>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container content row">
+    <div class="col s12 m12 l12 ">
+        <div class="row z-depth-1">
+            <div class="col s12 m12 l12 grey darken-2 bordered-grey-darken-4 b-w-4 b-bottom white-text ">
+                <h4 class="page-title">Mes projets</h4>
+            </div>
+            <div class="col s12 m12 l12 grey lighten-3 ">
+                <ul class="type-selector">
+                    <li>
+                        <input type="checkbox" id="test5" />
+                        <label for="test5">Laravel</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="test6" checked="checked" />
+                        <label for="test6">NodeJS</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="item col s12 m6 l4 z-depth-1 bordered-blue grey lighten-3" data-ng-repeat="row in projects">
+                <div class="row image">
+                    <div class="img" style="background: url('{{row.img}}');"></div>
+                    <div class="hover">
+                        <span class="name">{{row.titre}}</span>
+                        <p>{{row.description}}</p>
+                        <span class="technos">{{row.tags}}</span>
+                        <span class="more">
+                            <a class="waves-effect waves-light btn project col s6" href="{{row.preview}}">
+                                <i class="mdi-image-filter-none left"></i>Afficher
+                            </a>
+                            <a class="waves-effect waves-light btn project col s6" href="{{row.github}}">
+                                <i class="mdi-image-filter-none left"></i>GitHub
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
