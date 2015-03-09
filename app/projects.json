@@ -54,5 +54,13 @@
 		"preview": "projects/JavaScript_Avance_my_paint",
 		"img": "projects/JavaScript_Avance_my_paint/screenshot.png",
 		"tags": "Html5, Css3, Stylus, CoffeeScript, Jquery, Gulp, Npm"
+	},
+	{
+		"titre": "Pokedex Js",
+		"description": "Réalisation d'un pokedex en AngularJS",
+		"github": "https://github.com/villers/pokedex",
+		"preview": "projects/JavaScript_Avance_AngularJS/dist",
+		"img": "projects/JavaScript_Avance_AngularJS/screenshot.png",
+		"tags": "Html5, Css3, Stylus, CoffeeScript, AngularJS, Gulp, Npm"
 	}
 ]
